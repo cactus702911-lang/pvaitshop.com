@@ -30,7 +30,6 @@ var categories = [
         "description": "Comprehensive Google services for business growth. From reviews to accounts, we cover everything.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Boost Your Business with Verified Google Services</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                In today's digital landscape, Google dominates search and discovery. Having a strong presence on Google is not just an option; it's a necessity. \n                Our **Google Services** category offers a wide range of solutions designed to enhance your visibility, credibility, and operational efficiency.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                Whether you need to improve your local SEO with **Google Reviews**, manage multiple campaigns with **Google Ads Accounts**, or secure your communications with **Google Voice**, we have you covered. \n                All our accounts and services are 100% verified, safe, and delivered instantly.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Why Invest in Google Services?</h3>\n            <ul class=\"list-none space-y-4 mb-8 text-slate-300\">\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Enhanced Local SEO</strong>\n                        Google Reviews are a key ranking factor for local businesses. More positive reviews mean higher visibility in Google Maps and Search.\n                    </div>\n                </li>\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Operational Scalability</strong>\n                        With verified Google Ads and Gmail accounts, you can scale your marketing campaigns without fear of bans or restrictions.\n                    </div>\n                </li>\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Professional Communication</strong>\n                        Google Voice numbers allow you to maintain a professional business line separate from your personal phone.\n                    </div>\n                </li>\n            </ul>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Our Top Google Products</h3>\n            <div class=\"grid grid-cols-1 md:grid-cols-2 gap-6 mb-8\">\n                <div class=\"bg-[#1E293B] p-6 rounded-xl border border-white/5\">\n                    <h4 class=\"text-xl font-bold text-white mb-2\">Google Reviews</h4>\n                    <p class=\"text-slate-400 text-sm mb-4\">Non-drop, sticky reviews from real device profiles. Perfect for boosting GMB ranking.</p>\n                    <a href=\"/product/buy-google-reviews/\" class=\"text-cyan-400 font-bold text-sm hover:underline\">View Packages &rarr;</a>\n                </div>\n                <div class=\"bg-[#1E293B] p-6 rounded-xl border border-white/5\">\n                    <h4 class=\"text-xl font-bold text-white mb-2\">Google Ads Accounts</h4>\n                    <p class=\"text-slate-400 text-sm mb-4\">Aged, verified accounts ready to run campaigns. Bypass warming periods.</p>\n                    <a href=\"/product/buy-google-ads-accounts/\" class=\"text-cyan-400 font-bold text-sm hover:underline\">View Packages &rarr;</a>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Buyer's Guide: How to Choose?</h3>\n            <p class=\"text-slate-300 mb-4\">\n                When selecting a service, consider your immediate business goals. If you are a local business, prioritize **Google Maps Reviews**. \n                For digital marketers, **Old Gmail Accounts** and **Google Voice** are essential tools for outreach and account management.\n            </p>\n            <p class=\"text-slate-300\">\n                At **pvaitshop**, we ensure every product meets the highest standards of quality and security. Browse our selection below and take your Google presence to the next level.\n            </p>\n        ",
         "items": [
-            "Verified Wise Accounts",
             "Old Gmail Accounts"
         ]
     },
@@ -40,12 +39,10 @@ var categories = [
         "description": "Verified social media and developer accounts for Instagram, Twitter, Tinder, and GitHub.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Premium Verified Accounts for Every Platform</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                In the digital age, access is everything. Whether you're a developer needing a **GitHub** account, a marketer targeting **Instagram** and **Twitter**, or exploring niche platforms like **Tinder**, \n                having a verified, ready-to-use account saves you time and hassle.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                **pvaitshop** is your one-stop marketplace for high-quality PVA (Phone Verified Accounts). We take care of the verification process so you can focus on what matters?your business.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Why Buy Verified Accounts?</h3>\n            <div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 mb-8\">\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"shield-check\" class=\"w-10 h-10 text-green-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Instant Access</h4>\n                    <p class=\"text-slate-400 text-sm\">Skip the sign-up and verification delays. Get credentials instantly.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"globe\" class=\"w-10 h-10 text-blue-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Global Reach</h4>\n                    <p class=\"text-slate-400 text-sm\">Accounts available from USA, UK, EU, and other top tier regions.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"lock\" class=\"w-10 h-10 text-purple-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Ban Resistant</h4>\n                    <p class=\"text-slate-400 text-sm\">Created with unique IPs and device fingerprints for maximum safety.</p>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Popular Account Categories</h3>\n            <ul class=\"list-disc pl-5 space-y-3 mb-8 text-slate-300\">\n                <li><strong>Instagram Accounts:</strong> Perfect for influencer marketing and brand flipping.</li>\n                <li><strong>Twitter (X) Accounts:</strong> Essential for crypto projects and news dissemination.</li>\n                <li><strong>GitHub Accounts:</strong> Aged accounts for developers to host repositories with trust.</li>\n                <li><strong>Tinder Accounts:</strong> Verified profiles for dating app marketing.</li>\n            </ul>\n\n            <p class=\"text-slate-300\">\n                Don't let verification hurdles slow you down. Browse our diverse catalog of verified accounts below and get started today.\n            </p>\n        ",
         "items": [
-            "Buy Facebook Accounts ",
             "Tinder Account",
             "Buy verified WeChat accounts",
-            "Verified Cash App Accounts",
-            "Verified Binance Account",
-            "GitHub Account"
+            "GitHub Account",
+            "Buy Facebook Accounts "
         ]
     },
     {
@@ -63,7 +60,11 @@ var categories = [
         "slug": "bankaccountswithpvaitshop ",
         "description": "a",
         "content": "<p>google accounts </p>",
-        "items": []
+        "items": [
+            "Verified Wise Accounts",
+            "Verified Cash App Accounts",
+            "Verified Binance Account"
+        ]
     }
 ];
 
@@ -96,9 +97,9 @@ var products = [
     {
         "id": 21,
         "active": true,
-        "title": "Buy Facebook Accounts | Aged, PVA & Verified FB Profiles",
+        "title": "Buy Facebook Accounts",
         "display_title": "Buy Facebook Accounts ",
-        "slug": "buy-facebook-accounts",
+        "slug": "verified-facebook-accounts",
         "category": "Accounts",
         "image": "/images/products/Buy-PVA-Facebook-Account.webp",
         "image_title": "Buy  Facebook Accounts ",
@@ -168,7 +169,7 @@ var products = [
         "title": "Buy Verified Wise Accounts",
         "display_title": "Verified Wise Accounts",
         "slug": "buy-verified-wise-accounts",
-        "category": "Google",
+        "category": "Bank Accounts",
         "image": "/images/products/Buy-WISE-Account.webp",
         "image_title": "Buy Verified Wise Accounts – Pre-Configured Setup for Testing & Onboarding",
         "min_price": 299,
@@ -190,7 +191,6 @@ var products = [
         ],
         "long_description": "<h2><strong>Overview</strong></h2><p>Users often search to <strong>buy verified Wise accounts</strong> when they want to understand how multi-currency wallets, dashboards, and account settings work in practice.</p><p>This package is designed as a <strong>pre-configured testing environment</strong>, allowing you to explore account structure, navigate features, and observe how the platform behaves—without positioning it as a shortcut for financial operations.</p><h2><br></h2><h2><strong>What You Can Explore</strong></h2><p>With this setup, you can:</p><ul><li>Navigate dashboard and account sections</li><li>Understand wallet layout and currency handling</li><li>Explore account settings and interface structure</li><li>Observe onboarding flow and feature access</li></ul><p>The focus is on <strong>system familiarity and controlled learning</strong>.</p><h2><br></h2><h2><strong>Where This Is Useful</strong></h2><p>This type of setup is commonly used by:</p><ul><li><strong>Developers &amp; QA Teams</strong> – testing dashboard behavior</li><li><strong>Product Teams</strong> – analyzing interface and workflows</li><li><strong>Trainers &amp; Agencies</strong> – onboarding team members</li><li><strong>Learners</strong> – understanding fintech platform structure</li></ul><h2><br></h2><h2><strong>Delivery Details</strong></h2><ul><li><strong>Delivery Time:</strong> After order confirmation</li><li><strong>Access:</strong> Credentials delivered securely</li><li><strong>Support:</strong> Assistance available during setup</li></ul><h2><br></h2><h2><strong>Usage Guidance</strong></h2><ul><li>Intended strictly for <strong>testing, onboarding, and educational use</strong></li><li>Not designed for real financial transactions</li><li>Users should comply with platform policies and update credentials</li></ul><h2><br></h2><h2><strong>FAQ</strong></h2><h3><strong>Can I buy verified Wise accounts for testing?</strong></h3><p>Yes, these setups are provided for testing, onboarding, and learning purposes.</p><h3><br></h3><h3><strong>Is this for real financial use?</strong></h3><p>No. This setup is not intended for live financial activity.</p><h3><br></h3><h3><strong>Can I later use my own details?</strong></h3><p>Yes, users can proceed with their own credentials following platform guidelines.</p><h3><br></h3><h3><strong>Is this affiliated with Wise?</strong></h3><p>No. We are not affiliated with or endorsed by Wise.</p><h2><br></h2><h2><strong>Important Note</strong></h2><p>This setup is intended to help users <strong>understand platform workflows and account structure</strong>, not to bypass verification or represent real financial usage.</p><h2><br></h2><h2><strong>﻿Disclaimer</strong></h2><p>This service is provided strictly for <strong>educational, testing, and onboarding purposes</strong>.</p><p>Users must comply with Wise’s terms of service and applicable regulations.</p><p>We are not affiliated with or endorsed by Wise.</p>",
         "related_ids": [
-            11,
             4,
             3
         ]
@@ -307,7 +307,7 @@ var products = [
         "title": "Buy Verified Cash App Account – Pre-Verified Setup for Testing & App Workflow",
         "display_title": "Verified Cash App Accounts",
         "slug": "verified-cash-app-account-for-digital-payments-money-transfer",
-        "category": "Accounts",
+        "category": "Bank Accounts",
         "image": "/images/products/Buy-CASHAPP-ACCOUNTS.webp",
         "image_title": "Buy Verified Cash App Account – Pre-Verified Setup for Testing & App Workflow",
         "min_price": 149,
@@ -341,7 +341,7 @@ var products = [
         "title": "Buy Verified Binance Account – Pre-Verified Setup for Testing & Onboarding",
         "display_title": "Verified Binance Account",
         "slug": "buy-verified-binance-account",
-        "category": "Accounts",
+        "category": "Bank Accounts",
         "image": "/images/products/Buy-BINANCE-ACCOUNTS.webp",
         "image_title": "Buy Verified Binance Account – Pre-Verified Setup for Testing & Onboarding",
         "min_price": 290,
