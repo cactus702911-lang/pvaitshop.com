@@ -13,7 +13,7 @@ var siteConfig = {
     "supportEmail": "",
     "analyticsId": "",
     "whatsapp": "+15485801949",
-    "telegram": "verifiedvault7",
+    "telegram": "pvaitshop7",
     "themeColor": "#0B1120",
     "popupTitle": "",
     "popupMessage": "",
