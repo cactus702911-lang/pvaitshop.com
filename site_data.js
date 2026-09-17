@@ -42,7 +42,8 @@ var categories = [
             "Tinder Account",
             "Buy verified WeChat accounts",
             "GitHub Account",
-            "Buy Facebook Accounts "
+            "Buy Facebook Accounts ",
+            "Facebook account"
         ]
     },
     {
@@ -94,6 +95,32 @@ var landingPageData = {
 
 // All 41 Products Data
 var products = [
+    {
+        "id": 22,
+        "active": true,
+        "title": "Buy Facebook Account",
+        "display_title": "Facebook account",
+        "slug": "facebook-account",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "",
+        "min_price": 16,
+        "max_price": 210,
+        "badge_color": "blue",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "$10 - Option 1",
+            "$20 - Option 2"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
     {
         "id": 21,
         "active": true,
