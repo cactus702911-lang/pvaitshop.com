@@ -142,8 +142,9 @@ function generateFooter(products, siteConfig, basePath = '/') {
         return `<li><a href="${url}" class="text-slate-500 hover:text-cyan-600 transition-colors text-sm">${p.display_title || p.title}</a></li>`;
     }).join('');
 
-    const logoContent = siteConfig.logoUrl 
-        ? `<img src="${getImageUrl(siteConfig.logoUrl, basePath) || siteConfig.logoUrl}" alt="${siteConfig.logoText || 'Logo'}" class="h-8 w-auto" loading="lazy" decoding="async" width="32" height="32"> <span class="logo-text text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600 font-extrabold text-2xl tracking-tight">${siteConfig.logoText || 'pvaitshop'}</span>`
+    const resolvedLogoUrl = siteConfig.logoUrl ? (siteConfig.logoUrl.startsWith('/') ? (basePath === '/' ? '.' + siteConfig.logoUrl : basePath + siteConfig.logoUrl.substring(1)) : siteConfig.logoUrl) : null;
+    const logoContent = resolvedLogoUrl 
+        ? `<img src="${resolvedLogoUrl}" alt="${siteConfig.logoText || 'Logo'}" class="h-8 w-auto" loading="lazy" decoding="async" width="32" height="32"> <span class="logo-text text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600 font-extrabold text-2xl tracking-tight">${siteConfig.logoText || 'pvaitshop'}</span>`
         : `<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600 font-extrabold text-2xl tracking-tight">{{LOGO_TEXT}}</span>`;
 
     const siteDomain = (siteConfig.siteTitle || 'pvaitshop').toLowerCase().replace(/\s+/g, '') + '.com';
@@ -591,7 +592,8 @@ function generateFullHeader(unused_basePath, products, categories, siteConfig) {
     
     categories.forEach(cat => {
         const catItemsHtml = cat.items.map(item => {
-            const p = products.find(prod => prod.slug === item || prod.title === item || prod.image_title === item || prod.display_title === item);
+            const itemLower = item.toLowerCase();
+            const p = products.find(prod => (prod.slug && prod.slug.toLowerCase() === itemLower) || (prod.title && prod.title.toLowerCase() === itemLower) || (prod.image_title && prod.image_title.toLowerCase() === itemLower) || (prod.display_title && prod.display_title.toLowerCase() === itemLower));
             const url = p ? getDynamicUrl('product', p.slug, false) : '#';
             const displayText = p ? (p.display_title || p.title) : item;
             return `<a href="${url}" class="block px-4 py-2.5 text-sm text-slate-600 hover:text-cyan-600 hover:bg-slate-50 transition-colors">${displayText}</a>`;
@@ -624,7 +626,8 @@ function generateFullHeader(unused_basePath, products, categories, siteConfig) {
         if (!cat.slug) return;
         const catSlug = cat.slug;
         const catItemsHtml = cat.items.map(item => {
-            const p = products.find(prod => prod.slug === item || prod.title === item || prod.image_title === item || prod.display_title === item);
+            const itemLower = item.toLowerCase();
+            const p = products.find(prod => (prod.slug && prod.slug.toLowerCase() === itemLower) || (prod.title && prod.title.toLowerCase() === itemLower) || (prod.image_title && prod.image_title.toLowerCase() === itemLower) || (prod.display_title && prod.display_title.toLowerCase() === itemLower));
             const url = p ? getDynamicUrl('product', p.slug, false) : '#';
             const displayText = p ? (p.display_title || p.title) : item;
             return `<a href="${url}" class="block px-4 py-2 text-slate-600 hover:text-cyan-600 hover:bg-slate-50 rounded-lg transition-colors text-sm">${displayText}</a>`;
@@ -1319,10 +1322,10 @@ products.forEach(product => {
     const slug = product.slug.trim().replace(/^\/+|\/+$/g, ''); 
     const solidColor = computeProductColor(product);
     const featuresList = product.features.map(f => 
-        `<li class="flex items-start gap-2 text-slate-300 text-sm"><i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 mt-0.5 shrink-0"></i> ${f}</li>`
+        `<li class="flex items-start gap-2 text-slate-900 text-sm"><i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 mt-0.5 shrink-0"></i> ${f}</li>`
     ).join('');
     const bottomFeaturesList = product.features.map(f => 
-        `<li class="flex items-start gap-2 text-slate-400 text-sm"><i data-lucide="check" class="w-4 h-4 text-cyan-500 mt-0.5 shrink-0"></i> ${f}</li>`
+        `<li class="flex items-start gap-2 text-slate-900 text-sm"><i data-lucide="check" class="w-4 h-4 text-cyan-500 mt-0.5 shrink-0"></i> ${f}</li>`
     ).join('');
     
     let pricingOptions = '<option selected disabled>Choose an option</option>';
