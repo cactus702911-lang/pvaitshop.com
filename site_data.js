@@ -155,7 +155,7 @@ var products = [
         "max_price": 80,
         "badge_color": "blue",
         "is_sale": true,
-        "short_description": "Pre-registered Facebook accounts available from brand-new profiles to 10-year aged accounts. Seven age tiers from $10 to $80, 24/7 support, and a delivery-window replacement guarantee. Transparent terms and honest policy disclosure.",
+        "short_description": "Facebook accounts available from brand-new profiles to 10-year aged accounts. Seven age tiers from $10 to $80, 24/7 support, and a delivery-window replacement guarantee. Transparent terms and honest policy disclosure.",
         "meta_description": "Buy Facebook Account at PvaitShop. New to 10-year aged Facebook profiles. Full credentials, 7 age tiers, fast digital delivery, 24/7 support, and replacement guarantee. Transparent terms.",
         "features": [
             "7 Account Age Tiers ",
