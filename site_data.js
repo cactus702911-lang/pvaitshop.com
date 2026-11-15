@@ -63,8 +63,8 @@ var categories = [
             "GitHub Account",
             "Verified Tinder Account",
             " Facebook Account",
-            "Facebook Video Selfie",
-            "Facebook Account"
+            "Facebook Account",
+            "Facebook Video Selfie"
         ]
     }
 ];
@@ -146,15 +146,15 @@ var products = [
         "active": true,
         "title": "Buy Facebook Video Selfie Verified Accounts",
         "display_title": "Facebook Video Selfie",
-        "slug": "facebook-video-selfie-verification",
+        "slug": "facebook-selfie-verification",
         "category": "Accounts",
         "image": "",
-        "image_title": "Buy Facebook Video Selfie Verified Accounts – Identity-Checked Facebook Profiles | PvaitShop",
+        "image_title": "Buy Facebook Video Selfie Verified Accounts | PvaitShop",
         "min_price": 40,
         "max_price": 60,
         "badge_color": "blue",
         "is_sale": true,
-        "short_description": "Looking for Facebook accounts that have already passed Meta's video selfie identity verification? Our listings provide accounts with documented video selfie verification history. Understand what you are buying before you decide — fast delivery, transparent terms, and honest support.",
+        "short_description": "Looking for Facebook Video Selfie Verified Account? — fast delivery, transparent terms, and honest support.",
         "meta_description": "Buy Facebook Video Selfie Verified Accounts at PvaitShop. Understand what video selfie verification means, what risks exist, and what each package includes. Transparent terms. Fast delivery. Honest support.",
         "features": [
             "Video Selfie Identity Verification Completed",
@@ -174,7 +174,7 @@ var products = [
             59,
             58
         ],
-        "seo_title": "Buy Facebook Video Selfie Verified Accounts – Identity-Checked Profiles | PvaitShop",
+        "seo_title": "Buy Facebook Video Selfie Verified Accounts | PvaitShop",
         "seo_tags": "buy facebook video selfie verified accounts, facebook video selfie verification, facebook verified account, buy facebook account, facebook identity verification, meta video selfie, facebook account for sale, verified facebook account, facebook video selfie account, pvaitshop facebook"
     },
     {
