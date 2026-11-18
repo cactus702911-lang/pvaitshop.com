@@ -231,7 +231,7 @@ function generateFooter(products, siteConfig) {
             </div>
             
             <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-                <p class="text-slate-500 text-sm">Copyright © ${new Date().getFullYear()} ${siteDomain}. All rights reserved.</p>
+                <p class="text-slate-500 text-sm">Copyright &copy;pvaitshop.com. All rights reserved</p>
                 <div class="flex gap-4 text-sm text-slate-500 flex-wrap justify-center">
                     <a href="${getDynamicUrl('about', '', false)}" class="hover:text-white transition-colors">About</a>
                     <a href="${getDynamicUrl('contact', '', false)}" class="hover:text-white transition-colors">Contact</a>
