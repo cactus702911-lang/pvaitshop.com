@@ -3,11 +3,11 @@
 // --- Site Configuration (CMS Data) ---
 var siteConfig = {
     "siteTitle": "Buy PVA Accounts – Verified Google Reviews & Aged Social Accounts | PvaitShop",
-    "metaDescription": "Boost Your Digital Identity with Trusted PVA Solutions.\nGet instant access to premium verified accounts and non-drop reviews. Built for marketers, agencies, and businesses who demand security and reliability.",
+    "metaDescription": "Elevate Your Online Business With Real Accounts. Get authentic reviews and secure, top-tier accounts delivered instantly for your digital success.\n",
     "logoText": "PVA It Shop",
     "logoBadge": "🔥",
-    "heroTitle": "Boost Your <span class='text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 text-glow typing-text'>Digital Identity</span> <br/>with Trusted PVA Solutions",
-    "heroSubtitle": "Get instant access to premium verified accounts and non-drop reviews. Built for marketers, agencies, and businesses who demand security and reliability.",
+    "heroTitle": "Elevate Your <span class='text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 text-glow typing-text'>Online Business</span> <br/>With Real Accounts",
+    "heroSubtitle": "Get authentic reviews and secure, top-tier accounts delivered instantly for your digital success.",
     "heroButtonText": "Explore Services",
     "heroButtonLink": "#products-section",
     "supportEmail": "support@pvaitshop.com",
